@@ -1,0 +1,116 @@
+html
+{
+    background: rgb(253, 253, 255);
+}
+
+body
+{
+    margin: auto;
+    width: 700px;
+}
+
+#header
+{
+    width: 700px;
+    height: 77px;
+    margin-top: 66px;
+}
+
+#logo
+{
+    float: left;
+}
+
+#navigation
+{
+}
+
+#nav-top
+{
+    margin: 0px, auto, 0px;
+    list-style: none;
+    float: left;
+}
+
+#content
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#content p
+{
+}
+
+#content a
+{
+    color:black;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#footer p
+{
+    text-align: center;
+    outline-width: 0px 1px 0px;
+    margin-bottom: 55px;
+}
+#footer a
+{
+    color: black;
+    text-decoration: none;
+}
+
+p
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    line-height: 22px;
+    margin-bottom: 33px;
+}
+
+h1
+{
+    font-family: "Georgia",;
+    font-style: normal;
+    text-align: left;
+    font-size: 14pt;
+}
+
+h2
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif,;
+    color: darkgrey;
+    text-align: left;
+    font-size: 11pt;
+    line-height: 10px;
+}
+
+
+#footer a:hover
+{
+    color:blue;
+}
+
+li a:link
+{
+    color: black;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+#content-img
+{
+    margin-bottom: 33px;
+}
+
+#break
+{
+    margin-top: 66px;
+    border-top: dashed;
+    height: 22px;
+    border-width: 1px;
+}
+
+
+
