@@ -101,7 +101,22 @@ li a:link
 
 #content-img
 {
+    width: 700px;
     margin-bottom: 33px;
+}
+
+#content-img-ri
+{
+    width: 333px;
+    margin-bottom: 33px;
+    float:right;
+}
+
+#content-img-le
+{
+    width: 333px;
+    margin-bottom: 33px;
+    float:left;
 }
 
 #break
@@ -110,6 +125,12 @@ li a:link
     border-top: dashed;
     height: 22px;
     border-width: 1px;
+    clear:both;
+}
+
+#list
+{
+    line-height: 20pt;
 }
 
 
