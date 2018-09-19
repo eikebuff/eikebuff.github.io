@@ -1,12 +1,13 @@
 html
 {
-    background: rgb(253, 253, 255);
+    background: rgb(255, 255, 255);
 }
 
 body
 {
     margin: auto;
     width: 700px;
+    text-rendering: optimizeLegibility;
 }
 
 #header
@@ -19,17 +20,15 @@ body
 #logo
 {
     float: left;
+    margin-right: 66px;
 }
 
 #navigation
-{
-}
+{}
 
 #nav-top
-{
-    margin: 0px, auto, 0px;
+{    
     list-style: none;
-    float: left;
 }
 
 #content
@@ -49,12 +48,20 @@ body
     font-style: italic;
 }
 
+#content a:hover
+{
+    color:blue;
+    text-decoration: none;
+    font-style: italic;
+}
+
 #footer p
 {
     text-align: center;
     outline-width: 0px 1px 0px;
-    margin-bottom: 55px;
+    margin-bottom: 0px;
 }
+
 #footer a
 {
     color: black;
@@ -79,7 +86,8 @@ h1
 
 h2
 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif,;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: thin;
     color: darkgrey;
     text-align: left;
     font-size: 11pt;
@@ -95,6 +103,14 @@ h2
 li a:link
 {
     color: black;
+    text-decoration: none;
+    font-size: 14pt;
+    line-height: 20pt;
+}
+
+li a:hover
+{
+    color: blue;
     text-decoration: none;
     font-size: 14pt;
 }
@@ -128,10 +144,19 @@ li a:link
     clear:both;
 }
 
-#list
+td
 {
-    line-height: 20pt;
+    text-align:left;
+    padding-right:33px;
 }
 
+table
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 33px;
+    white-space: nowrap;
+}
 
-
+.date {
+    text-align:left;
+}
