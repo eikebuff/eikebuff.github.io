@@ -13,27 +13,34 @@ body
 #header
 {
     width: 700px;
-    height: 77px;
-    margin-top: 66px;
+    height: 111px;
+    margin-top: px;
+    position:fixed;
+    background: white;
+    top: 0px;
 }
 
 #logo
 {
+    width:170px;
     float: left;
+    margin-top: 17px;
     margin-right: 66px;
 }
 
 #navigation
-{}
+{
+}
 
 #nav-top
 {    
     list-style: none;
+    margin-top:17px;
 }
 
 #content
 {
-    margin-top: 50px;
+    margin-top: 155px;
     text-align: center;
 }
 
@@ -162,4 +169,15 @@ table
 
 .date {
     text-align:left;
+}
+
+#animation
+{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
