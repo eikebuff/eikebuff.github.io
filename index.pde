@@ -50,7 +50,7 @@ class Snake
   Snake()
   {
     birth = frameCount;
-    segCount = int(random(4.5, 25.5));
+    segCount = int(random(4.5, 30.5));
     tiles = new int[segCount];
     for (int i = 0; i < segCount; i++) tiles[i] = int(random(-0.5, 7.5));
     lifeSpan = segCount * metro + 200;
