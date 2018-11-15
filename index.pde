@@ -5,9 +5,8 @@ int content = 700; // content-width of website
 
 void setup()
 {
-  size(800,600);
   //fullScreen();
-  //size(screenWidth, screenHeight);
+  size(screenWidth, screenHeight);
   frameRate(25);
   rectMode(CENTER);
   ellipseMode(CENTER);
