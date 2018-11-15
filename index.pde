@@ -100,7 +100,7 @@ class Snake
     segments.add(new PVector(x, y));
 
     // check up
-    println(birth, lifeSpan, size, segCount, myMetro, del);
+    //println(birth, lifeSpan, size, segCount, myMetro, del);
   }
 
 
