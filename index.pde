@@ -173,7 +173,7 @@ class Snake
         noFill();
         stroke(0);
         strokeWeight(1);
-        for(int j = 0; j <= 5; j++)
+        for(int j = 0; j <= 4; j++)
         {
           line(segments.get(i).x - halfSize + (j * size/4), segments.get(i).y - halfSize, segments.get(i).x - halfSize + (j * size/4), segments.get(i).y + halfSize);
         }
@@ -198,7 +198,7 @@ class Snake
         noFill();
         stroke(0);
         strokeWeight(1);
-        for(int j = 0; j <= 5; j++)
+        for(int j = 0; j <= 4; j++)
         {
           line(segments.get(i).x - halfSize, segments.get(i).y - halfSize + (j * size/4), segments.get(i).x + halfSize, segments.get(i).y - halfSize + (j * size/4));
         }
