@@ -138,8 +138,8 @@ class Snake
         pushStyle();
         fill(0);
         noStroke();
-        //rect(segments.get(i).x + halfSize, segments.get(i).y + halfSize, size, size);
-        ellipse(segments.get(i).x, segments.get(i).y, size/2, size/2);
+        //rect(segments.get(i).x, segments.get(i).y, size, size);
+        ellipse(segments.get(i).x + halfSize, segments.get(i).y + halfSize, size/2, size/2);
         popStyle();
         break;
       case 1:
