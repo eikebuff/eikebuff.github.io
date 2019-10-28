@@ -175,7 +175,7 @@ class Snake
         strokeWeight(1);
         for(int j = 0; j <= 5; j++)
         {
-          line(segments.get(i).x - halfSize + (j * size/5), segments.get(i).y - halfSize, segments.get(i).x - halfSize + (j * size/5), segments.get(i).y + halfSize);
+          line(segments.get(i).x - halfSize + (j * size/4), segments.get(i).y - halfSize, segments.get(i).x - halfSize + (j * size/4), segments.get(i).y + halfSize);
         }
         //line(segments.get(i).x - halfSize, segments.get(i).y - halfSize, segments.get(i).x + halfSize, segments.get(i).y + halfSize);
         popStyle();
@@ -200,7 +200,7 @@ class Snake
         strokeWeight(1);
         for(int j = 0; j <= 5; j++)
         {
-          line(segments.get(i).x - halfSize, segments.get(i).y - halfSize + (j * size/5), segments.get(i).x + halfSize, segments.get(i).y - halfSize + (j * size/5));
+          line(segments.get(i).x - halfSize, segments.get(i).y - halfSize + (j * size/4), segments.get(i).x + halfSize, segments.get(i).y - halfSize + (j * size/4));
         }
         //line(segments.get(i).x + halfSize, segments.get(i).y - halfSize, segments.get(i).x - halfSize, segments.get(i).y + halfSize);
         popStyle();
