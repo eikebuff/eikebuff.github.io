@@ -150,7 +150,7 @@ class Snake
         pushStyle();
         noFill();
         stroke(0);
-        strokeWeight(0.5);
+        strokeWeight(1);
         for(int k = 0; k <= 5; k++)
         {
           line(segments.get(i).x - halfSize, segments.get(i).y - halfSize + (k * size/5), segments.get(i).x + halfSize, segments.get(i).y - halfSize + (k * size/5));
