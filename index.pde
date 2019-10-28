@@ -33,6 +33,27 @@ void draw()
     int r = int(random(30));
     if (r == 0 && snakes.size() < 3) snakes.add(new Snake());
   }
+  
+  mouseClicked = function(){
+  boolean clicked = true;
+  for (Snake s : snakes)
+  {
+    for (int i = 0; i < s.segments.size() - 1; i++)
+    {
+      if (abs(s.segments.get(i).x - mouseX) < s.halfSize && abs(s.segments.get(i).y - mouseY) < s.halfSize)
+      {
+        s.tiles[i] = 9;
+        clicked = false;
+      }
+    }
+  }
+  if (clicked == true && snakes.size() < 8)
+  {
+    snakes.add(new Snake());
+    int sSize = snakes.get(snakes.size() - 1).halfSize;
+    snakes.get(snakes.size() - 1).segments.get(0).x = int(mouseX / sSize) * sSize;
+    snakes.get(snakes.size() - 1).segments.get(0).y = int(mouseY / sSize) * sSize;
+  }
 }
 
 
