@@ -137,7 +137,8 @@ class Snake
       case 0:
         pushStyle();
         fill(0);
-        rect(segments.get(i).x, segments.get(i).y, size, size);
+        //rect(segments.get(i).x, segments.get(i).y, size, size);
+        ellipse(segments.get(i).x, segments.get(i).y, size, size);
         popStyle();
         break;
       case 1:
