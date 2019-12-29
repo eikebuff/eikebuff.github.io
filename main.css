@@ -5,7 +5,9 @@ html
 }
 
 body
-{
+{    
+    display: flex;
+    flex-direction: column;
     margin: auto;
     max-width: 700px;
     width:100%;
@@ -49,6 +51,7 @@ body
 #content
 {
     margin-top: 155px;
+    flex: 1 0 auto;
 }
 
 #content a
@@ -87,6 +90,13 @@ body
     margin-bottom: 33px;
 }
 
+#footer
+{
+    flex-shrink: 0;
+    max-width:700px;
+    width:100%;
+}
+
 #footer p
 {
     text-align: center;
@@ -101,6 +111,33 @@ body
 }
 
 #footer a:hover
+{
+    color:blue;
+}
+
+
+#footer-index
+{
+    max-width:700px;
+    width:100%;
+    position:absolute;
+    bottom: 0;
+}
+
+#footer-index p
+{
+    text-align: center;
+    outline-width: 0px 1px 0px;
+    margin-bottom: 0px;
+}
+
+#footer-index a
+{
+    color: black;
+    text-decoration: none;
+}
+
+#footer-index a:hover
 {
     color:blue;
 }
@@ -140,6 +177,7 @@ li a:link
     font-size: 12pt;
     line-height: 20pt;
     letter-spacing: 0.2pt;
+    white-space: nowrap;
 }
 
 li a:visited
@@ -199,4 +237,80 @@ table
     width: 100%;
     position: fixed;
     top: 40%;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+    
+    body
+    {
+        max-width:90%;
+        width:90%;
+    }
+    
+    #header
+    {
+        max-width: 90%;
+        width:90%;
+    }
+    
+    #index {
+        text-align: center;
+        max-width:90%;
+        width: 90%;
+        position: fixed;
+        top: 40%;
+    }
+    
+    #footer
+    {
+        max-width:100%;
+        width:100%;
+    }
+    
+    #footer-index
+    {
+        max-width:90%;
+        width:90%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 420px) {
+  /* For mobile phones: */
+    #header
+    {
+        max-width: 90%;
+        width:90%;
+        height:200px;
+    }
+    
+   #nav-top
+    {
+        margin-top:108px;
+        padding-left:0;
+    }
+    
+    #content
+    {
+        margin-top: 208px;
+    }
+    
+    .content-img
+    {
+        margin-bottom: 11px;
+    }
+    .content-img-le
+    {
+        margin-bottom: 11px;
+    }
+    .content-img-ri
+    {
+        margin-bottom: 11px;
+    }
+    #animation
+    {
+        display: none;
+    }
 }
