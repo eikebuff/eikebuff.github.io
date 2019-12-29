@@ -266,7 +266,6 @@ iframe{
         text-align: center;
         max-width:90%;
         width: 90%;
-        position: fixed;
     }
     
     #footer
@@ -282,6 +281,8 @@ iframe{
     }
     
 }
+
+
 
 
 @media only screen and (max-width: 420px) {
@@ -344,5 +345,30 @@ iframe{
     #animation
     {
         display: none;
+    }
+    
+    #index
+    {
+        top: 20%;
+    }
+    
+    #footer-index p
+    {
+        margin-top:4px;
+    }
+    
+    #footer-index .break
+    {
+        height:14px;
+    }
+    
+    #footer p
+    {
+        margin-top:4px;
+    }
+    
+    #footer .break
+    {
+        height:14px;
     }
 }
