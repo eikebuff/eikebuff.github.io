@@ -18,7 +18,7 @@ body
 {
     max-width: 700px;
     width:100%;
-    height: 111px;
+    height: 115px;
     position:fixed;
     background: white;
     top: 0px;
@@ -50,7 +50,7 @@ body
 
 #content
 {
-    margin-top: 155px;
+    margin-top: 135px;
     flex: 1 0 auto;
 }
 
@@ -203,7 +203,9 @@ li a:hover
 td
 {
     text-align:left;
-    padding-right:33px;
+    padding-right:11px;
+    vertical-align: top;
+    line-height: 18pt;
 }
 
 table
@@ -211,11 +213,13 @@ table
     font-family: "Open Sans", Arial, sans-serif;
     letter-spacing: 0.2pt;
     margin-bottom: 33px;
-    white-space: nowrap;
+    white-space:normal;
+    border-spacing: 0px 4px;
 }
 
 .date {
     text-align:left;
+    padding-right:22px;
 }
 
 #animation
@@ -239,6 +243,10 @@ table
     top: 40%;
 }
 
+iframe{
+    max-width: 100%;
+}
+
 @media only screen and (max-width: 800px) {
   /* For mobile phones: */
     
@@ -259,7 +267,6 @@ table
         max-width:90%;
         width: 90%;
         position: fixed;
-        top: 40%;
     }
     
     #footer
@@ -283,18 +290,43 @@ table
     {
         max-width: 90%;
         width:90%;
-        height:200px;
+        height:100px;
     }
     
-   #nav-top
+    #logo
     {
-        margin-top:108px;
+        width:120px;
+        height: 70px;
+        margin-right: 33px;
+    }
+    
+    #logo:hover
+    {
+        width: 130px;
+        float: left;
+        margin-top: 14px;
+        margin-right: 23px;
+    }
+    
+    #nav-top
+    {
         padding-left:0;
+    }
+    
+    li a:link
+    {
+        font-size: 10pt;
+        line-height: 17pt;
+    }
+    
+    .break
+    {
+        margin-top:22px;
     }
     
     #content
     {
-        margin-top: 208px;
+        margin-top: 108px;
     }
     
     .content-img
