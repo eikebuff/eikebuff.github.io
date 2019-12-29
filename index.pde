@@ -93,7 +93,7 @@ class Snake
     // add first segment
     int x = int(random(1, width / size)) * size;
     // take out the center part of website
-    while (x < 2 * size | x > width - 2 * size | x > (width / 2) - (content / 3) && x < (width / 2) + (content / 3)) x = int(random(1, width / size)) * size;
+    //while (x < 2 * size | x > width - 2 * size | x > (width / 2) - (content / 3) && x < (width / 2) + (content / 3)) x = int(random(1, width / size)) * size;
     int y = int(random(1, height / size)) * size;
 
     segments.add(new PVector(x, y));
