@@ -151,6 +151,37 @@ body
     color:darkorange;
 }
 
+#footer-impressum
+{
+    max-width:700px;
+    width:100%;
+    position:absolute;
+    bottom: 0;
+}
+
+#footer-impressum p
+{
+    text-align: center;
+    outline-width: 0px 1px 0px;
+    margin-bottom: 0px;
+}
+
+#footer-impressum a
+{
+    color: black;
+    text-decoration: none;
+}
+
+#footer-impressum a:hover
+{
+    color:blue;
+}
+
+#footer-impressum a.sc:hover 
+{
+    color:darkorange;
+}
+
 p
 {
     font-family: "Open Sans", Arial, sans-serif;
@@ -177,7 +208,7 @@ h2
     color: darkgrey;
     text-align: left;
     font-size: 11pt;
-    line-height: 10px;
+    line-height: 22px;
 }
 
 li a:link
@@ -379,5 +410,12 @@ iframe{
     #footer .break
     {
         height:14px;
+    }
+    
+    #footer-impressum
+    {
+        max-width:700px;
+        width:100%;
+        position:relative;
     }
 }
