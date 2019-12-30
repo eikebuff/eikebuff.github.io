@@ -320,6 +320,13 @@ iframe{
         max-width:90%;
         width:90%;
     }
+    
+    #footer-impressum
+    {
+        max-width:700px;
+        width:100%;
+        position:relative;
+    }
 }
 
 
@@ -410,12 +417,5 @@ iframe{
     #footer .break
     {
         height:14px;
-    }
-    
-    #footer-impressum
-    {
-        max-width:700px;
-        width:100%;
-        position:relative;
     }
 }
