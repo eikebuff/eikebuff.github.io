@@ -22,8 +22,8 @@
                 var bodyWidth = style.width;
                 bodyWidth = bodyWidth.replace('px','');
                     
-                if(window.innerWidth < 801){
-                    var z = 100 / 700 * bodyWidth / 100;
+                if(window.innerWidth < 1001){
+                    var z = 100 / 900 * bodyWidth / 100;
                     for (i = 0; i < iframes.length; ++i) {
                         iframes[i].style.setProperty('zoom', z);
                     }
