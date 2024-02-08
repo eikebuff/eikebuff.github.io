@@ -13,7 +13,24 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans">
     </head>
     
-    <body>
+    <body onload="setZoom()" onresize="setZoom()">
+        <script>
+            function setZoom() {
+                var iframes = document.querySelectorAll('iframe'), i;
+                const element = document.querySelector('body');
+                const style = getComputedStyle(element);
+                var bodyWidth = style.width;
+                bodyWidth = bodyWidth.replace('px','');
+                    
+                if(window.innerWidth < 1001){
+                    var z = 100 / 900 * bodyWidth / 100;
+                    for (i = 0; i < iframes.length; ++i) {
+                        iframes[i].style.setProperty('zoom', z);
+                    }
+                }
+            }
+        </script>
+        
         <div id="header">
             <a href="index.html">
                 <img id="logo" alt="EIKE BUFF" src="pics/logo-01.svg"/>
