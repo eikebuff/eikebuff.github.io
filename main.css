@@ -132,6 +132,11 @@ body
     color:darkorange;
 }
 
+#footer a.v:hover 
+{
+    color: #3caef2;
+}
+
 #footer-index
 {
     max-width:900px;
@@ -161,6 +166,11 @@ body
 #footer-index a.sc:hover 
 {
     color:darkorange;
+}
+
+#footer-index a.v:hover 
+{
+    color: #3caef2;
 }
 
 p
@@ -237,6 +247,12 @@ td a
     border-bottom: 1px dotted;
 }
 
+td a:hover
+{
+    color: blue;
+    text-decoration: underlined;
+}
+
 table
 {
     font-family: "ag-book-rounded-regular";
@@ -249,6 +265,7 @@ table
 .date {
     text-align:left;
     padding-right:22px;
+    white-space: nowrap;
 }
 
 #animation
