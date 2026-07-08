@@ -430,4 +430,10 @@ iframe{
     {
         height:14px;
     }
+    
+    blockquote
+    {
+        padding-left: 20px;
+        border-width: 1px;
+    }
 }
