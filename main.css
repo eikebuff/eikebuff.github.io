@@ -183,6 +183,20 @@ p
     letter-spacing: 0.4pt;
 }
 
+blockquote
+{
+    font-family: "ag-book-rounded-regular";
+    text-align: left;
+    line-height: 26px;
+    margin-bottom: 33px;
+    margin-top:0px;
+    margin-left:0px;
+    letter-spacing: 0.4pt;
+    padding-left: 30px;
+    border-left-style: solid;
+    border-width: 3px;
+}
+
 h1
 {
     font-family: 'Fira Sans', sans-serif;
@@ -262,7 +276,7 @@ table
     border-spacing: 0px 4px;
 }
 
-.date {
+td.date {
     text-align:left;
     padding-right:22px;
     white-space: nowrap;
